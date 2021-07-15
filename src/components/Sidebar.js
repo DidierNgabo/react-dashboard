@@ -70,20 +70,20 @@ const Sidebar = () => {
             </li>
           </ul>
         </div>
-        {/* <div className="sidebarMenu">
-              <h3 className="sidebarTitle">Staff</h3>
-              <ul className="sidebarList">
-                  <li className="sidebarItem active">
-                    <WorkOutline className="sidebarIcon"/> Manage
-                  </li>
-                  <li className="sidebarItem">
-                   <Timeline className="sidebarIcon"/> Analytics
-                  </li>
-                  <li className="sidebarItem">
-                  <ReportOutlined className="sidebarIcon"/> Report
-                  </li>
-              </ul>
-          </div> */}
+        <div className="sidebarMenu">
+          <h3 className="sidebarTitle">Staff</h3>
+          <ul className="sidebarList">
+            <li className="sidebarItem active">
+              <WorkOutline className="sidebarIcon" /> Manage
+            </li>
+            <li className="sidebarItem">
+              <Timeline className="sidebarIcon" /> Analytics
+            </li>
+            <li className="sidebarItem">
+              <ReportOutlined className="sidebarIcon" /> Report
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
