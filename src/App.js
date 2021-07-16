@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Products from './components/Products';
 import UserList from './components/UserList';
 import User from './components/User';
+import NewUser from './components/NewUser';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
               </Route>
               <Route exact path="/users">
                 <UserList />
+              </Route>
+              <Route exact path="/users/new">
+                <NewUser />
               </Route>
               <Route exact path="/users/:id">
                 <User />

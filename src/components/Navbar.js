@@ -20,7 +20,7 @@ const Navbar = () => {
           <div className="topbarIconContainer">
             <Settings />
           </div>
-          <img src="/profile.jpg" class="avatar" alt="avatar" />
+          <img src="/profile.jpg" className="avatar" alt="avatar" />
         </div>
       </div>
     </div>
