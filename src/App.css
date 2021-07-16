@@ -292,3 +292,136 @@ a {
   color: red;
   cursor: pointer;
 }
+.user {
+  flex: 4;
+  padding: 20px;
+}
+.usrTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.usrAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.usrContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.usrShow {
+  flex: 1;
+  padding: 20px;
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.usrUpdate {
+  flex: 2;
+  padding: 20px;
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  margin-left: 20px;
+}
+
+.usrShowTop {
+  display: flex;
+  align-items: center;
+}
+.usrShowImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.usrShowTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.usrShowUsername {
+  font-weight: 600;
+}
+.usrShowJob {
+  font-weight: 300;
+}
+.usrShowBottom {
+  margin-top: 20px;
+}
+.usrShowTitle {
+  font-size: 14px;
+  font-weight: 600px;
+  color: rgb(175, 170, 170);
+}
+
+.usrShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  color: #444;
+}
+.usrShowIcon {
+  font-size: 16px !important;
+}
+.usrShowInfoTitle {
+  margin-left: 10px;
+}
+.usrUpdateTitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+.usrUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.usrUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.usrUpdateItem > label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.usrUpdateInput {
+  border: none;
+  width: 250px;
+  border-bottom: 1px solid gray;
+  height: 30px;
+  outline: none;
+}
+.usrUpdateImg {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.usrUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.usrUpdateUPload {
+  display: flex;
+  align-items: center;
+}
+.usrUpdateIcon {
+  cursor: pointer;
+}
+.usrUpdateButton {
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+}

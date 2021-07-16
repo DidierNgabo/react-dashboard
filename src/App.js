@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Products from './components/Products';
 import UserList from './components/UserList';
+import User from './components/User';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
               </Route>
               <Route exact path="/users">
                 <UserList />
+              </Route>
+              <Route exact path="/users/:id">
+                <User />
               </Route>
               <Route exact path="/products">
                 <Products />
