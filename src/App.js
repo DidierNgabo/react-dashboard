@@ -3,10 +3,12 @@ import './App.css';
 import Sidebar from './components/Sidebar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/Home';
-import Products from './components/Products';
 import UserList from './components/UserList';
 import User from './components/User';
 import NewUser from './components/NewUser';
+import ProductList from './components/ProductList';
+import Product from './components/Product';
+import NewProduct from './components/newProduct';
 
 function App() {
   return (
@@ -30,7 +32,13 @@ function App() {
                 <User />
               </Route>
               <Route exact path="/products">
-                <Products />
+                <ProductList />
+              </Route>
+              <Route exact path="/products/new">
+                <NewProduct />
+              </Route>
+              <Route exact path="/products/:id">
+                <Product />
               </Route>
             </Switch>
           </div>

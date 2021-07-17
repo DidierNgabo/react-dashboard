@@ -475,3 +475,7 @@ a {
   margin-top: 30px;
   cursor: pointer;
 }
+.productList {
+  flex: 4;
+  height: 400px;
+}
