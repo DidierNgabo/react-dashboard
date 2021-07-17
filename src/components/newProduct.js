@@ -1,5 +1,4 @@
 import React from 'react';
-import { Publish } from '@material-ui/icons';
 
 const newProduct = () => {
   return (
