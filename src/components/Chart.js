@@ -8,7 +8,7 @@ import {
   CartesianGrid,
 } from 'recharts';
 
-const Chart = ({ title, data, xDataKey, yDataKey, grid }) => {
+const Chart = ({ title, data, dataKey, grid }) => {
   console.log(data);
   return (
     <div className="chart">
@@ -16,7 +16,7 @@ const Chart = ({ title, data, xDataKey, yDataKey, grid }) => {
       <ResponsiveContainer width="100%" aspect={4 / 1}>
         <LineChart data={data}>
           <XAxis dataKey="name" stroke="#5550bd" />
-          <Line type="monotone" dataKey={yDataKey} stroke="#5550bd" />
+          <Line type="monotone" dataKey={dataKey} stroke="#5550bd" />
           <Tooltip />
           {grid && <CartesianGrid stroke="#e0dfdf" strokeDasharray="5 5" />}
         </LineChart>
