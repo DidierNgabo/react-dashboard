@@ -2,10 +2,10 @@ import React from 'react';
 import {
   AssessmentOutlined,
   AttachMoney,
-  ChatBubbleOutlineOutlined,
   DynamicFeed,
   LineStyle,
   MailOutlined,
+  Message,
   PermIdentityOutlined,
   ReportOutlined,
   Storefront,
@@ -35,7 +35,7 @@ const Sidebar = () => {
           </ul>
         </div>
         <div className="sidebarMenu">
-          <h3 className="sidebarTitle">Quick menu</h3>
+          <h3 className="sidebarTitle">Quick Actions</h3>
           <ul className="sidebarList">
             <Link to="/users">
               <li className="sidebarItem active">
@@ -44,7 +44,7 @@ const Sidebar = () => {
             </Link>
             <Link to="/products">
               <li className="sidebarItem">
-                <Storefront className="sidebarIcon" /> Products
+                <Storefront className="sidebarIcon" /> Sectors
               </li>
             </Link>
             <li className="sidebarItem">
@@ -52,6 +52,9 @@ const Sidebar = () => {
             </li>
             <li className="sidebarItem">
               <AssessmentOutlined className="sidebarIcon" /> Reports
+            </li>
+            <li className="sidebarItem">
+              <Message className="sidebarIcon" /> Message
             </li>
           </ul>
         </div>
@@ -64,10 +67,10 @@ const Sidebar = () => {
             <li className="sidebarItem">
               <DynamicFeed className="sidebarIcon" /> FeedBack
             </li>
-            <li className="sidebarItem">
+            {/* <li className="sidebarItem">
               <ChatBubbleOutlineOutlined className="sidebarIcon" />{' '}
               Notifications
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="sidebarMenu">
